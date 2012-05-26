@@ -1,9 +1,6 @@
-package "open-vm-dkms" do
-  options "--no-install-recommends"
-  action :install
-end
-
-package "open-vm-tools" do
-  options "--no-install-recommends"
-  action :install
+[ "open-vm-dkms", "open-vm-tools" ].each do |vm_package|
+  package vm_package do
+    options "--no-install-recommends"
+    action :install
+  end
 end
