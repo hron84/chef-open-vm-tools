@@ -1,5 +1,6 @@
-maintainer        "The Wharton School - The University of Pennsylvania"
-maintainer_email  "hcastro@wharton.upenn.edu"
+name              "open-vm-tools"
+maintainer        "Hector Castro"
+maintainer_email  "hectcastro@gmail.com"
 license           "Apache 2.0"
 description       "Installs and configures VMware Tools."
 version           "0.0.3"
