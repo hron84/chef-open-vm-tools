@@ -6,6 +6,9 @@ description       "Installs and configures VMware Tools."
 version           "0.0.3"
 recipe            "open-vm-tools", "Installs and configures open-vm-tools"
 
+depends           'apt'
+depends           'yum'
+
 %w{ ubuntu }.each do |os|
     supports os
 end
